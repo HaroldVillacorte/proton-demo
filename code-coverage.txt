@@ -1,0 +1,182 @@
+
+
+Code Coverage Report:         
+  2015-10-19 21:52:31         
+                              
+ Summary:                     
+  Classes: 39.33% (59/150)    
+  Methods: 19.82% (300/1514)  
+  Lines:   27.44% (3083/11236)
+
+\App\Adapter::DoctrineAdapter
+  Methods: 100.00% ( 1/ 1)   Lines: 100.00% (  2/  2)
+\App\Api::AccountApi
+  Methods:  75.00% ( 3/ 4)   Lines:  94.74% ( 36/ 38)
+\App\Api::ShiftApi
+  Methods:  90.00% ( 9/10)   Lines:  98.18% (108/110)
+\App\Entity::Shift
+  Methods: 100.00% (16/16)   Lines: 100.00% ( 24/ 24)
+\App\Entity::StandardResponse
+  Methods:  57.14% ( 4/ 7)   Lines:  70.00% (  7/ 10)
+\App\Entity::User
+  Methods:  93.33% (14/15)   Lines:  95.45% ( 21/ 22)
+\Doctrine\Common::EventManager
+  Methods:  14.29% ( 1/ 7)   Lines:   4.00% (  1/ 25)
+\Doctrine\Common\Annotations::AnnotationRegistry
+  Methods:  16.67% ( 1/ 6)   Lines:  21.21% (  7/ 33)
+\Doctrine\Common\Annotations::CachedReader
+  Methods:  27.27% ( 3/11)   Lines:  51.61% ( 32/ 62)
+\Doctrine\Common\Annotations::DocLexer
+  Methods:  66.67% ( 2/ 3)   Lines:  65.00% ( 13/ 20)
+\Doctrine\Common\Annotations::DocParser
+  Methods:  32.00% ( 8/25)   Lines:  61.15% (255/417)
+\Doctrine\Common\Annotations::SimpleAnnotationReader
+  Methods:  50.00% ( 4/ 8)   Lines:  30.43% (  7/ 23)
+\Doctrine\Common\Annotations\Annotation::Enum
+  Methods:   0.00% ( 0/ 1)   Lines:  55.00% ( 11/ 20)
+\Doctrine\Common\Annotations\Annotation::Target
+  Methods:   0.00% ( 0/ 1)   Lines:  48.00% ( 12/ 25)
+\Doctrine\Common\Cache::ArrayCache
+  Methods:  50.00% ( 3/ 6)   Lines:  44.44% (  4/  9)
+\Doctrine\Common\Cache::CacheProvider
+  Methods:  42.86% ( 6/14)   Lines:  41.86% ( 18/ 43)
+\Doctrine\Common\Collections::ArrayCollection
+  Methods:  15.15% ( 5/33)   Lines:   8.64% (  7/ 81)
+\Doctrine\Common\Lexer::AbstractLexer
+  Methods:  60.00% ( 9/15)   Lines:  72.13% ( 44/ 61)
+\Doctrine\Common\Persistence\Mapping::AbstractClassMetadataFactory
+  Methods:  23.08% ( 3/13)   Lines:  55.00% ( 55/100)
+\Doctrine\Common\Persistence\Mapping::RuntimeReflectionService
+  Methods:  33.33% ( 2/ 6)   Lines:  50.00% (  9/ 18)
+\Doctrine\Common\Persistence\Mapping\Driver::AnnotationDriver
+  Methods:  20.00% ( 2/10)   Lines:  11.48% (  7/ 61)
+\Doctrine\Common\Proxy::AbstractProxyFactory
+  Methods:  20.00% ( 1/ 5)   Lines:   6.78% (  4/ 59)
+\Doctrine\Common\Proxy::ProxyGenerator
+  Methods:   0.00% ( 0/24)   Lines:   2.76% (  8/290)
+\Doctrine\Common\Util::ClassUtils
+  Methods:  16.67% ( 1/ 6)   Lines:  37.50% (  3/  8)
+\Doctrine\DBAL::Configuration
+  Methods:  25.00% ( 2/ 8)   Lines:  33.33% (  6/ 18)
+\Doctrine\DBAL::Connection
+  Methods:   7.58% ( 5/66)   Lines:  31.00% (142/458)
+\Doctrine\DBAL::DriverManager
+  Methods:   0.00% ( 0/ 5)   Lines:  25.00% ( 18/ 72)
+\Doctrine\DBAL::SQLParserUtils
+  Methods:   0.00% ( 0/ 4)   Lines:  13.73% ( 14/102)
+\Doctrine\DBAL::Statement
+  Methods:  13.33% ( 2/15)   Lines:  46.67% ( 28/ 60)
+\Doctrine\DBAL\Driver::AbstractMySQLDriver
+  Methods:  20.00% ( 1/ 5)   Lines:  11.39% (  9/ 79)
+\Doctrine\DBAL\Driver::PDOConnection
+  Methods:  37.50% ( 3/ 8)   Lines:  55.56% ( 15/ 27)
+\Doctrine\DBAL\Driver::PDOStatement
+  Methods:  12.50% ( 1/ 8)   Lines:  21.05% (  8/ 38)
+\Doctrine\DBAL\Driver\PDOMySql::Driver
+  Methods:   0.00% ( 0/ 3)   Lines:  61.54% ( 16/ 26)
+\Doctrine\DBAL\Platforms::AbstractPlatform
+  Methods:   3.45% ( 7/203)   Lines:   1.96% ( 13/663)
+\Doctrine\DBAL\Platforms::MySqlPlatform
+  Methods:   1.72% ( 1/58)   Lines:   1.54% (  6/389)
+\Doctrine\DBAL\Query\Expression::ExpressionBuilder
+  Methods:   5.88% ( 1/17)   Lines:  11.11% (  2/ 18)
+\Doctrine\DBAL\Types::DateTimeType
+  Methods:  25.00% ( 1/ 4)   Lines:  53.85% (  7/ 13)
+\Doctrine\DBAL\Types::FloatType
+  Methods:  33.33% ( 1/ 3)   Lines:  33.33% (  1/  3)
+\Doctrine\DBAL\Types::IntegerType
+  Methods:  50.00% ( 2/ 4)   Lines:  50.00% (  2/  4)
+\Doctrine\DBAL\Types::Type
+  Methods:  37.50% ( 6/16)   Lines:  35.48% ( 11/ 31)
+\Doctrine\ORM::AbstractQuery
+  Methods:  15.79% ( 6/38)   Lines:  14.88% ( 25/168)
+\Doctrine\ORM::Configuration
+  Methods:  36.00% (18/50)   Lines:  36.94% ( 58/157)
+\Doctrine\ORM::EntityManager
+  Methods:  28.57% (12/42)   Lines:  38.50% ( 82/213)
+\Doctrine\ORM::EntityRepository
+  Methods:  12.50% ( 2/16)   Lines:  10.00% (  6/ 60)
+\Doctrine\ORM::Query
+  Methods:  25.00% ( 7/28)   Lines:  55.91% ( 71/127)
+\Doctrine\ORM::UnitOfWork
+  Methods:   8.43% ( 7/83)   Lines:  27.82% (360/1294)
+\Doctrine\ORM\Event::ListenersInvoker
+  Methods:  33.33% ( 1/ 3)   Lines:  25.81% (  8/ 31)
+\Doctrine\ORM\Id::IdentityGenerator
+  Methods: 100.00% ( 3/ 3)   Lines: 100.00% (  4/  4)
+\Doctrine\ORM\Internal::CommitOrderCalculator
+  Methods:  33.33% ( 2/ 6)   Lines:  18.18% (  6/ 33)
+\Doctrine\ORM\Internal\Hydration::AbstractHydrator
+  Methods:  27.27% ( 3/11)   Lines:  33.33% ( 51/153)
+\Doctrine\ORM\Internal\Hydration::ArrayHydrator
+  Methods:  40.00% ( 2/ 5)   Lines:  47.01% ( 63/134)
+\Doctrine\ORM\Internal\Hydration::SimpleObjectHydrator
+  Methods:  25.00% ( 1/ 4)   Lines:  59.42% ( 41/ 69)
+\Doctrine\ORM\Mapping::ClassMetadataFactory
+  Methods:  36.84% ( 7/19)   Lines:  22.39% ( 58/259)
+\Doctrine\ORM\Mapping::ClassMetadataInfo
+  Methods:  17.65% (21/119)   Lines:  12.56% ( 97/772)
+\Doctrine\ORM\Mapping::DefaultNamingStrategy
+  Methods:  16.67% ( 1/ 6)   Lines:  30.00% (  3/ 10)
+\Doctrine\ORM\Mapping::DefaultQuoteStrategy
+  Methods:  33.33% ( 3/ 9)   Lines:  47.06% ( 16/ 34)
+\Doctrine\ORM\Mapping\Driver::AnnotationDriver
+  Methods:   0.00% ( 0/ 6)   Lines:  20.67% ( 74/358)
+\Doctrine\ORM\Persisters::BasicEntityPersister
+  Methods:  13.73% ( 7/51)   Lines:  30.99% (229/739)
+\Doctrine\ORM\Proxy::ProxyFactory
+  Methods:  20.00% ( 1/ 5)   Lines:   9.59% (  7/ 73)
+\Doctrine\ORM\Query::FilterCollection
+  Methods:  22.22% ( 2/ 9)   Lines:  13.33% (  4/ 30)
+\Doctrine\ORM\Query::Lexer
+  Methods:  75.00% ( 3/ 4)   Lines:  86.05% ( 37/ 43)
+\Doctrine\ORM\Query::Parameter
+  Methods: 100.00% ( 5/ 5)   Lines: 100.00% (  9/  9)
+\Doctrine\ORM\Query::ParameterTypeInferer
+  Methods:   0.00% ( 0/ 1)   Lines:  45.45% (  5/ 11)
+\Doctrine\ORM\Query::Parser
+  Methods:  12.39% (14/113)   Lines:  24.62% (344/1397)
+\Doctrine\ORM\Query::ParserResult
+  Methods:  75.00% ( 6/ 8)   Lines:  75.00% (  9/ 12)
+\Doctrine\ORM\Query::ResultSetMapping
+  Methods:   0.00% ( 0/25)   Lines:  20.31% ( 13/ 64)
+\Doctrine\ORM\Query::SqlWalker
+  Methods:  12.16% ( 9/74)   Lines:  25.77% (260/1009)
+\Doctrine\ORM\Query\AST::ArithmeticExpression
+  Methods:  66.67% ( 2/ 3)   Lines:  66.67% (  2/  3)
+\Doctrine\ORM\Query\AST::BetweenExpression
+  Methods: 100.00% ( 2/ 2)   Lines: 100.00% (  5/  5)
+\Doctrine\ORM\Query\AST::ComparisonExpression
+  Methods: 100.00% ( 2/ 2)   Lines: 100.00% (  5/  5)
+\Doctrine\ORM\Query\AST::ConditionalExpression
+  Methods:  50.00% ( 1/ 2)   Lines:  66.67% (  2/  3)
+\Doctrine\ORM\Query\AST::ConditionalPrimary
+  Methods:  33.33% ( 1/ 3)   Lines:  33.33% (  1/  3)
+\Doctrine\ORM\Query\AST::FromClause
+  Methods:  50.00% ( 1/ 2)   Lines:  66.67% (  2/  3)
+\Doctrine\ORM\Query\AST::IdentificationVariableDeclaration
+  Methods:  50.00% ( 1/ 2)   Lines:  80.00% (  4/  5)
+\Doctrine\ORM\Query\AST::InputParameter
+  Methods:  50.00% ( 1/ 2)   Lines:  85.71% (  6/  7)
+\Doctrine\ORM\Query\AST::Join
+  Methods:  50.00% ( 1/ 2)   Lines:  75.00% (  3/  4)
+\Doctrine\ORM\Query\AST::PathExpression
+  Methods: 100.00% ( 2/ 2)   Lines: 100.00% (  5/  5)
+\Doctrine\ORM\Query\AST::RangeVariableDeclaration
+  Methods:  50.00% ( 1/ 2)   Lines:  80.00% (  4/  5)
+\Doctrine\ORM\Query\AST::SelectClause
+  Methods:  50.00% ( 1/ 2)   Lines:  75.00% (  3/  4)
+\Doctrine\ORM\Query\AST::SelectExpression
+  Methods:  50.00% ( 1/ 2)   Lines:  80.00% (  4/  5)
+\Doctrine\ORM\Query\AST::SelectStatement
+  Methods:  50.00% ( 1/ 2)   Lines:  75.00% (  3/  4)
+\Doctrine\ORM\Query\AST::WhereClause
+  Methods:  50.00% ( 1/ 2)   Lines:  66.67% (  2/  3)
+\Doctrine\ORM\Query\Exec::SingleSelectExecutor
+  Methods: 100.00% ( 2/ 2)   Lines: 100.00% (  3/  3)
+\Doctrine\ORM\Repository::DefaultRepositoryFactory
+  Methods:  50.00% ( 1/ 2)   Lines:  92.31% ( 12/ 13)
+\Doctrine\ORM\Tools::Setup
+  Methods:  20.00% ( 1/ 5)   Lines:  37.50% ( 18/ 48)
+\Proton::Application
+  Methods:  12.50% ( 3/24)   Lines:   7.32% (  6/ 82)

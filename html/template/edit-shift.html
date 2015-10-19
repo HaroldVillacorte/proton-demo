@@ -1,0 +1,26 @@
+<div class="columns large-12">
+    <form ng-submit="submit($event)">
+
+        <label for="employee">Employee</label>
+        <select id="employee" ng-model="shift.employee_id" ng-options="i.id as i.name for i in employees">
+        </select>
+
+        <div class="columns large-12">
+            <div class="columns large-6">
+                <h2>Shift Start</h2>
+                <div date-picker="shift.start_time" watch-direct-changes></div>
+            </div>
+            <div class="columns large-6">
+                <h2>Shift End</h2>
+                <div date-picker="shift.end_time" watch-direct-changes></div>
+            </div>
+        </div>
+
+        <label for="break">Break</label>
+        <select id="break" ng-model="shift.break" ng-options="i.duration as i.label for i in breakOptions">
+        </select>
+
+        <button type="submit">Submit</button>
+
+    </form>
+</div>

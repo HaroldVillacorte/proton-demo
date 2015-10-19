@@ -1,0 +1,44 @@
+<div class="columns large-12">
+    <div>
+        <button ng-click="toggleFilter()">Filter</button>
+    </div>
+
+    <div ng-show="showFilter" class="columns large-12">
+        <div date-picker="filterStart" class="columns large-4"></div>
+        <div date-picker="filterEnd" class="columns large-4"></div>
+        <div class="columns large-4">
+            <button ng-click="submitFilter()">Submit Filter</button>
+        </div>
+    </div>
+
+    <table width="100%">
+        <thead>
+        <tr>
+            <th>id</th>
+            <th>Manager</th>
+            <th>Employee</th>
+            <th>Break</th>
+            <th>Start</th>
+            <th>End</th>
+            <th>Created</th>
+            <th>Updated</th>
+            <th><a href="#/add-shift">Add+</a></th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="shift in shifts">
+                <td>{{shift.id}}</td>
+                <td>{{shift.manager_name}}</td>
+                <td><a href="#/user/{{shift.employee_id}}">{{shift.employee_name}}</a></td>
+                <td>{{(shift.break === 0.5 ? '1/2' : '1') + ' hour'}}</td>
+                <td>{{shift.start_time * 1000 | date: 'short'}}</td>
+                <td>{{shift.end_time * 1000 | date : 'short'}}</td>
+                <td>{{shift.created_at * 1000 | date: 'short'}}</td>
+                <td>{{shift.updated_at * 1000 | date: 'short'}}</td>
+                <td><a href="#/edit-shift/{{shift.id}}">Edit</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+

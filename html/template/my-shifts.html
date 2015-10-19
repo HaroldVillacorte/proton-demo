@@ -1,0 +1,43 @@
+<div class="columns large-12">
+
+    <table width="100%">
+        <thead>
+        <tr>
+            <th>id</th>
+            <th>Manager</th>
+            <th>Employee</th>
+            <th>Break</th>
+            <th>Start</th>
+            <th>End</th>
+            <th>Created</th>
+            <th>Updated</th>
+            <th>Team</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="shift in shifts">
+            <td>{{shift.id}}</td>
+            <td><a href="#/user/{{shift.manager_id}}">{{shift.manager_name}}</a></td>
+            <td>{{shift.employee_name}}</td>
+            <td>{{(shift.break === 0.5 ? '1/2' : '1') + ' hour'}}</td>
+            <td>{{shift.start_time * 1000 | date: 'short'}}</td>
+            <td>{{shift.end_time * 1000 | date : 'short'}}</td>
+            <td>{{shift.created_at * 1000 | date: 'short'}}</td>
+            <td>{{shift.updated_at * 1000 | date: 'short'}}</td>
+            <td><a href="#" ng-click="showTeam($event, shift)">View</a></td>
+        </tr>
+        </tbody>
+    </table>
+
+    <h3>Weekly Summary</h3>
+    <ul>
+        <li ng-repeat="summary in weeklySummary">Week number {{summary.week}}: {{summary.hours}} hours</li>
+    </ul>
+
+</div>
+
+<div id="team-modal" class="reveal-modal" data-reveal aria-labelledby="teamTitle" aria-hidden="true" role="dialog">
+    <h2 id="teamTitle">Team</h2>
+    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+    <span ng-repeat="member in teamShifts">{{member.employee_name}}&nbsp;</span>
+</div>

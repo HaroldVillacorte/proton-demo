@@ -1,0 +1,16 @@
+{
+  "require": {
+    "alexbilbie/proton": "~1.4",
+    "phpunit/phpunit": "4.8.*",
+    "doctrine/orm": "2.4.*",
+    "zendframework/zend-validator": "2.4.*",
+    "zendframework/zend-filter": "2.4.*",
+    "stack/builder": "1.0.3",
+    "stack/run": "1.0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src"
+    }
+  }
+}
