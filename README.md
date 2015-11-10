@@ -1,6 +1,6 @@
 # Proton Demo
 
-Here is the coding exercise: https://github.com/wheniwork/standards/blob/master/project.md
+Here is my initial answer to this coding exercise: https://github.com/wheniwork/standards/blob/master/project.md
 
 We _highly_ encourage using **PHP*** and one of the following frameworks: [Spark](https://github.com/sparkphp/Project), [Radar](https://github.com/radarphp/Radar.Project), or [Proton](https://github.com/alexbilbie/proton).
 
